@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+.btn {
+  width: 100%;
+
+  padding: 20px 30px;
+
+  border-radius: 5px;
+
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}

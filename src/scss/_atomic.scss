@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .max-w {
   max-width: 1200px;
 }
@@ -18,7 +20,6 @@
   margin: 0 auto;
 }
 
-
 .mb-17 {
   margin-bottom: 17px;
 }
@@ -27,6 +28,18 @@
   margin-bottom: 31px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
 .mr-90 {
   margin-right: 90px;
+}
+
+.bg-green {
+  background-color: $green;
 }

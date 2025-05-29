@@ -48,22 +48,6 @@
       outline: none;
     }
   }
-
-  &-btn {
-    width: 100%;
-
-    padding: 20px 30px;
-
-    border-radius: 5px;
-
-    background-color: $green;
-
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-
-    cursor: pointer;
-  }
 }
 
 @media (width <= 414px) {
