@@ -1,0 +1,73 @@
+@use "variables" as *;
+
+.hero {
+  padding: 200px 0;
+
+  text-align: center;
+
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+
+  &-content {
+    color: #fff;
+  }
+
+  &-title {
+    font-weight: 700;
+  }
+}
+
+.registration {
+  justify-content: center;
+  column-gap: 24px;
+  max-width: 570px;
+
+  &-input {
+    box-sizing: border-box;
+    min-width: 270px;
+    min-height: 50px;
+
+    margin-bottom: 1.5rem;
+
+    padding: 0 20px;
+
+    background-color: transparent;
+
+    border: 2px solid $dark-gray;
+    border-radius: 3px;
+
+    color: #fff;
+
+    &::placeholder {
+      font-size: 14px;
+      color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-btn {
+    width: 100%;
+
+    padding: 20px 30px;
+
+    border-radius: 5px;
+
+    background-color: $green;
+
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    cursor: pointer;
+  }
+}
+
+@media (width <= 414px) {
+  .hero {
+    padding: 248px 20px 200px 20px;
+  }
+}

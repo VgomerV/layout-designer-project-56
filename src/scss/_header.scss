@@ -1,0 +1,100 @@
+@use "variables" as *;
+
+.header {
+  top: 25px;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  height: max-content;
+
+  &-link {
+    align-items: center;
+    column-gap: 16px;
+
+    color: #fff;
+  }
+
+  &-img {
+    width: 24px;
+  }
+
+  &-title {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+}
+
+.navigation {
+  height: max-content;
+
+  &-list {
+    column-gap: 24px;
+  }
+
+  &-link {
+    font-size: 11px;
+    color: $dark-gray;
+    text-transform: uppercase;
+
+    &-active {
+      color: #fff;
+    }
+  }
+}
+
+.search {
+  margin-left: auto;
+
+  &-input {
+    box-sizing: border-box;
+    min-width: 248px;
+    height: 25px;
+
+    padding: 5px 10px;
+
+    border: none;
+    border-radius: 50px;
+
+    background-color: $dark;
+
+    color: #fff;
+
+    &::placeholder {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      color: #757575;
+
+      text-transform: uppercase;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media (width <= 414px) {
+  .header {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .logo {
+    margin-bottom: 17px;
+  }
+
+  .navigation-list {
+    flex-direction: column;
+    margin-bottom: 17px;
+  }
+
+  .search {
+    margin: 0;
+
+    &-input {
+      width: 100%;
+    }
+  }
+}

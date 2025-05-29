@@ -1,2 +1,2 @@
 css-build:
-	sass ./src/scss/base.scss ./src/css/app.css
+	sass ./src/scss/app.scss ./src/css/app.css
