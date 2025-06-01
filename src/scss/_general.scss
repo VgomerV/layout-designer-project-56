@@ -18,6 +18,7 @@
 body {
   background-color: #08020d;
 
+  font-weight: 400;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   color: #cacaca;
@@ -27,6 +28,7 @@ h1 {
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -34,6 +36,7 @@ h2 {
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -51,6 +54,11 @@ a {
 ul,
 ol {
   list-style-type: none;
+}
+
+button {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
 }
 
 @media (max-width: 414px) {

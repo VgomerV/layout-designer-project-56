@@ -1,0 +1,58 @@
+@use "variables" as *;
+
+.page-app {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.app-content {
+  flex-direction: row-reverse;
+}
+
+.app-image {
+  max-width: 333px;
+  height: auto;
+}
+
+.app-description {
+  width: 50%;
+  text-align: left;
+
+  &-text {
+    margin: 16px 0;
+  }
+
+  &-btn {
+    cursor: pointer;
+
+    max-width: 131px;
+    max-height: 53px;
+    margin-top: 16px;
+    padding: 16px 40px;
+
+    background-color: $red;
+
+    border: none;
+    border-radius: 32px;
+
+    font-size: 12.8px;
+    color: #fff;
+  }
+}
+
+@media (width <= 414px) {
+  .page-app {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .app-content {
+    flex-direction: column;
+  }
+
+  .app-description {
+    width: 100%;
+  }
+}
+
