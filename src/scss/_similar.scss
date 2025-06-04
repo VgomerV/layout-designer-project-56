@@ -1,44 +1,44 @@
-@use "variables" as *;
+// @use "variables" as *;
 
-.similar {
-  padding-top: 100px 20px 0 20px;
+// .similar {
+//   padding-top: 100px 20px 0 20px;
 
-  &-content {
-    column-gap: 50px;
-    row-gap: 25px;
-  }
+//   &-content {
+//     column-gap: 50px;
+//     row-gap: 25px;
+//   }
 
-  &-item {
-    width: 250px;
-    flex-direction: column;
-    row-gap: 17px;
+//   &-item {
+//     width: 250px;
+//     flex-direction: column;
+//     row-gap: 17px;
 
-    &-image {
-      width: 250px;
-    }
+//     &-image {
+//       width: 250px;
+//     }
 
-    &-info {
-      text-align: center;
-      font-size: 16px;
-      color: #fff;
-    }
+//     &-info {
+//       text-align: center;
+//       font-size: 16px;
+//       color: #fff;
+//     }
 
-    &-title {
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 27px;
-      text-transform: none;
-    }
-  }
-}
+//     &-title {
+//       font-weight: 700;
+//       font-size: 18px;
+//       line-height: 27px;
+//       text-transform: none;
+//     }
+//   }
+// }
 
-@media (width <= 414px) {
-  .similar-item {
-    width: 137px;
+// @media (width <= 414px) {
+//   .similar-item {
+//     width: 137px;
 
-    &-image {
-      width: 137px;
-      height: 137px;
-    }
-  }
-}
+//     &-image {
+//       width: 137px;
+//       height: 137px;
+//     }
+//   }
+// }

@@ -1,62 +1,62 @@
-@use "variables" as *;
+// @use "variables" as *;
 
-.footer {
-  width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  padding-left: 20px;
-  padding-right: 20px;
+// .footer {
+//   width: 100%;
+//   padding-top: 3rem;
+//   padding-bottom: 2rem;
+//   padding-left: 20px;
+//   padding-right: 20px;
 
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+//   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
-  &-top {
-    justify-content: space-between;
-    margin-bottom: 72px;
-  }
+//   &-top {
+//     justify-content: space-between;
+//     margin-bottom: 72px;
+//   }
 
-  &-title {
-    margin-bottom: 15px;
+//   &-title {
+//     margin-bottom: 15px;
 
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    color: #fff;
-    text-transform: uppercase;
-  }
+//     font-weight: 700;
+//     font-size: 18px;
+//     line-height: 27px;
+//     color: #fff;
+//     text-transform: uppercase;
+//   }
 
-  &-list {
-    flex-direction: column;
-  }
+//   &-list {
+//     flex-direction: column;
+//   }
 
-  &-link {
-    font-size: 16px;
-    color: $gray;
-  }
+//   &-link {
+//     font-size: 16px;
+//     color: $gray;
+//   }
 
-  &-icons {
-    column-gap: 24px;
-  }
+//   &-icons {
+//     column-gap: 24px;
+//   }
 
-  &-bottom {
-    padding-top: 40px ;
-    border-top: 1px solid $dark-gray;
-  }
+//   &-bottom {
+//     padding-top: 40px ;
+//     border-top: 1px solid $dark-gray;
+//   }
 
-  &-nav-list {
-    column-gap: 16px;
-  }
-}
+//   &-nav-list {
+//     column-gap: 16px;
+//   }
+// }
 
-@media (width <= 414px) {
-  .footer-top {
-    flex-direction: column;
-    row-gap: 30px;
-  }
+// @media (width <= 414px) {
+//   .footer-top {
+//     flex-direction: column;
+//     row-gap: 30px;
+//   }
 
-  .footer-nav-list {
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-direction: column;
-    row-gap: 16px;
-  }
-}
+//   .footer-nav-list {
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     flex-direction: column;
+//     row-gap: 16px;
+//   }
+// }

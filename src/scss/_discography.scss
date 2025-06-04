@@ -1,34 +1,34 @@
-@use "variables" as *;
+// @use "variables" as *;
 
-.page-discography {
-  padding-top: 100px 20px 0 20px;
-}
+// .page-discography {
+//   padding-top: 100px 20px 0 20px;
+// }
 
-.discography-list {
-  justify-content: flex-start;
-  column-gap: 50px;
-  row-gap: 25px;
-}
+// .discography-list {
+//   justify-content: flex-start;
+//   column-gap: 50px;
+//   row-gap: 25px;
+// }
 
-.discography-info {
-  margin-top: 18px;
+// .discography-info {
+//   margin-top: 18px;
 
-  color: #fff;
+//   color: #fff;
 
-  &-title {
-    font-size: 18px;
-    line-height: 27px;
-    text-transform: none;
-  }
-}
+//   &-title {
+//     font-size: 18px;
+//     line-height: 27px;
+//     text-transform: none;
+//   }
+// }
 
-@media (width <= 414px) {
-  .discography-item {
-    width: 137px;
+// @media (width <= 414px) {
+//   .discography-item {
+//     width: 137px;
 
-    &-image {
-      width: 137px;
-      height: 137px;
-    }
-  }
-}
+//     &-image {
+//       width: 137px;
+//       height: 137px;
+//     }
+//   }
+// }

@@ -1,52 +1,51 @@
-@use "variables" as *;
+// @use "variables" as *;
 
-.page-app {
-  padding-top: 100px 20px;
-  text-align: center;
-}
+// .page-app {
+//   padding-top: 100px 20px;
+//   text-align: center;
+// }
 
-.app-content {
-  flex-direction: row-reverse;
-}
+// .app-content {
+//   flex-direction: row-reverse;
+// }
 
-.app-image {
-  max-width: 333px;
-  height: auto;
-}
+// .app-image {
+//   max-width: 333px;
+//   height: auto;
+// }
 
-.app-description {
-  width: 50%;
-  text-align: left;
+// .app-description {
+//   width: 50%;
+//   text-align: left;
 
-  &-text {
-    margin: 16px 0;
-  }
+//   &-text {
+//     margin: 16px 0;
+//   }
 
-  &-btn {
-    cursor: pointer;
+//   &-btn {
+//     cursor: pointer;
 
-    max-width: 131px;
-    max-height: 53px;
-    margin-top: 16px;
-    padding: 16px 40px;
+//     max-width: 131px;
+//     max-height: 53px;
+//     margin-top: 16px;
+//     padding: 16px 40px;
 
-    background-color: $red;
+//     background-color: $red;
 
-    border: none;
-    border-radius: 32px;
+//     border: none;
+//     border-radius: 32px;
 
-    font-size: 12.8px;
-    color: #fff;
-  }
-}
+//     font-size: 12.8px;
+//     color: #fff;
+//   }
+// }
 
-@media (width <= 414px) {
-  .app-content {
-    flex-direction: column;
-  }
+// @media (width <= 414px) {
+//   .app-content {
+//     flex-direction: column;
+//   }
 
-  .app-description {
-    width: 100%;
-  }
-}
-
+//   .app-description {
+//     width: 100%;
+//   }
+// }
