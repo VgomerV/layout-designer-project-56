@@ -124,6 +124,10 @@ button {
   margin-bottom: 64px;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .mr-90 {
   margin-right: 90px;
 }
@@ -224,7 +228,6 @@ button {
 .hero {
   padding: 200px 0;
   text-align: center;
-  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -259,9 +262,52 @@ button {
   outline: none;
 }
 
+.artist {
+  text-align: start;
+}
+.artist-icon {
+  filter: invert(1);
+}
+.artist-buttons {
+  column-gap: 1.5rem;
+}
+.artist-btn {
+  align-items: center;
+  column-gap: 16px;
+  width: 200px;
+  padding: 20px 30px;
+  border: none;
+  font-size: 12.8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bg-main {
+  background-image: url("../images/banner.png");
+}
+
+.bg-morten {
+  background-image: url("../images/Morten Harket.png");
+}
+
+.bg-purple {
+  background-color: #5328A1;
+}
+
+.bg-red {
+  background-color: #95390C;
+}
+
 @media (width <= 414px) {
   .hero {
     padding: 248px 20px 200px 20px;
+  }
+  .hero-description {
+    margin-bottom: 48px;
+  }
+  .artist-buttons {
+    flex-direction: column;
+    row-gap: 24px;
   }
 }
 .pricing {
@@ -429,6 +475,164 @@ button {
   }
   .app-description {
     width: 100%;
+  }
+}
+.page-track {
+  padding-top: 100px;
+}
+
+.track-content {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.popular-track {
+  flex: 47%;
+  column-gap: 15px;
+  align-items: center;
+}
+.popular-track-time {
+  margin-left: auto;
+}
+
+.track-info {
+  font-size: 12.8px;
+  color: #fff;
+}
+.track-info-song-info {
+  text-transform: uppercase;
+}
+
+@media (width <= 414px) {
+  .page-track {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .popular-track {
+    flex: 1;
+  }
+}
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-list {
+  justify-content: flex-start;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-info {
+  margin-top: 18px;
+  color: #fff;
+}
+.discography-info-title {
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: none;
+}
+
+@media (width <= 414px) {
+  .page-discography {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .discography-item {
+    width: 137px;
+  }
+  .discography-item-image {
+    width: 137px;
+    height: 137px;
+  }
+}
+.similar {
+  padding-top: 100px;
+}
+.similar-content {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+.similar-item {
+  width: 250px;
+  flex-direction: column;
+  row-gap: 17px;
+}
+.similar-item-image {
+  width: 250px;
+}
+.similar-item-info {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.similar-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: none;
+}
+
+@media (width <= 414px) {
+  .similar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .similar-item {
+    width: 137px;
+  }
+  .similar-item-image {
+    width: 137px;
+    height: 137px;
+  }
+}
+.footer {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+.footer-top {
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.footer-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-list {
+  flex-direction: column;
+}
+.footer-link {
+  font-size: 16px;
+  color: #E0E0E0;
+}
+.footer-icons {
+  column-gap: 24px;
+}
+.footer-bottom {
+  padding-top: 40px;
+  border-top: 1px solid #CACACA;
+}
+.footer-nav-list {
+  column-gap: 16px;
+}
+
+@media (width <= 414px) {
+  .footer-top {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .footer-nav-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    row-gap: 16px;
   }
 }
 

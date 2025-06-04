@@ -1,0 +1,39 @@
+@use "variables" as *;
+
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-list {
+  justify-content: flex-start;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-info {
+  margin-top: 18px;
+
+  color: #fff;
+
+  &-title {
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: none;
+  }
+}
+
+@media (width <= 414px) {
+  .page-discography {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .discography-item {
+    width: 137px;
+
+    &-image {
+      width: 137px;
+      height: 137px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@use "variables" as *;
+
+.page-track {
+  padding-top: 100px;
+}
+
+.track-content {
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.popular-track {
+  flex: 47%;
+  column-gap: 15px;
+  align-items: center;
+
+  &-time {
+    margin-left: auto;
+  }
+}
+
+.track-info {
+  font-size: 12.8px;
+  color: #fff;
+
+  &-song-info {
+    text-transform: uppercase;
+  }
+}
+
+@media (width <= 414px) {
+  .page-track {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .popular-track {
+    flex: 1;
+  }
+}
