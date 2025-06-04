@@ -227,6 +227,8 @@ button {
 }
 .hero {
   padding: 200px 0;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -300,7 +302,7 @@ button {
 
 @media (width <= 414px) {
   .hero {
-    padding: 248px 20px 200px 20px;
+    padding: 248px 0 200px 0;
   }
   .hero-description {
     margin-bottom: 48px;
@@ -377,6 +379,8 @@ button {
   }
 }
 .news-section {
+  margin-left: 20px;
+  margin-right: 20px;
   row-gap: 65px;
   padding-top: 100px;
   text-align: center;
@@ -421,10 +425,6 @@ button {
 }
 
 @media (width <= 414px) {
-  .news-section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .news-card {
     flex-direction: column;
     row-gap: 50px;
@@ -433,6 +433,8 @@ button {
 .page-app {
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
 }
 
@@ -479,6 +481,8 @@ button {
 }
 .page-track {
   padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .track-content {
@@ -504,16 +508,14 @@ button {
 }
 
 @media (width <= 414px) {
-  .page-track {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .popular-track {
     flex: 1;
   }
 }
 .page-discography {
   padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .discography-list {
@@ -533,10 +535,6 @@ button {
 }
 
 @media (width <= 414px) {
-  .page-discography {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .discography-item {
     width: 137px;
   }
@@ -547,6 +545,8 @@ button {
 }
 .similar {
   padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .similar-content {
   column-gap: 50px;
@@ -573,10 +573,6 @@ button {
 }
 
 @media (width <= 414px) {
-  .similar {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .similar-item {
     width: 137px;
   }
@@ -589,6 +585,8 @@ button {
   width: 100%;
   padding-top: 3rem;
   padding-bottom: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer-top {
@@ -623,8 +621,6 @@ button {
 
 @media (width <= 414px) {
   .footer-top {
-    padding-left: 20px;
-    padding-right: 20px;
     flex-direction: column;
     row-gap: 30px;
   }
