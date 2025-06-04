@@ -1,9 +1,7 @@
 @use "variables" as *;
 
 .hero {
-  padding: 200px 0;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 200px 20px;
 
   text-align: center;
 
@@ -94,7 +92,7 @@
 
 @media (width <= 414px) {
   .hero {
-    padding: 248px 0 200px 0;
+    padding: 248px 20px 200px 20px;
 
     &-description {
       margin-bottom: 48px;

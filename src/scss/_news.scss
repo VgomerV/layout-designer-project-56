@@ -1,10 +1,8 @@
 @use "variables" as *;
 
 .news-section {
-  margin-left: 20px;
-  margin-right: 20px;
   row-gap: 65px;
-  padding-top: 100px;
+  padding-top: 100px 20px 0 20px;
   text-align: center;
 }
 

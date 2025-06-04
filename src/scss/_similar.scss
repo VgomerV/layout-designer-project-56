@@ -1,9 +1,7 @@
 @use "variables" as *;
 
 .similar {
-  padding-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-top: 100px 20px 0 20px;
 
   &-content {
     column-gap: 50px;
