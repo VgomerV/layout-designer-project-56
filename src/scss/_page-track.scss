@@ -2,6 +2,8 @@
 
 .page-track {
   padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .track-content {
@@ -29,11 +31,6 @@
 }
 
 @media (width <= 414px) {
-  .page-track {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .popular-track {
     flex: 1;
   }

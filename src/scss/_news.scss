@@ -1,6 +1,8 @@
 @use "variables" as *;
 
 .news-section {
+  margin-left: 20px;
+  margin-right: 20px;
   row-gap: 65px;
   padding-top: 100px;
   text-align: center;
@@ -57,11 +59,6 @@
 }
 
 @media (width <= 414px) {
-  .news-section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .news-card {
     flex-direction: column;
     row-gap: 50px;

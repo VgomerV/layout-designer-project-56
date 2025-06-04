@@ -4,6 +4,8 @@
   width: 100%;
   padding-top: 3rem;
   padding-bottom: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
 
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
@@ -47,8 +49,6 @@
 
 @media (width <= 414px) {
   .footer-top {
-    padding-left: 20px;
-    padding-right: 20px;
     flex-direction: column;
     row-gap: 30px;
   }

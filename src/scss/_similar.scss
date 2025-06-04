@@ -2,6 +2,8 @@
 
 .similar {
   padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 
   &-content {
     column-gap: 50px;
@@ -33,11 +35,6 @@
 }
 
 @media (width <= 414px) {
-  .similar {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .similar-item {
     width: 137px;
 
