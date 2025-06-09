@@ -4,23 +4,20 @@
   top: 25px;
   left: 0;
   right: 0;
+
+  column-gap: 90px;
 }
 
 .logo {
-  height: max-content;
+  column-gap: 16px;
 
-  &-link {
-    align-items: center;
-    column-gap: 16px;
+  color: #fff;
 
-    color: #fff;
+  &-image {
+    height: 24px;
   }
 
-  &-img {
-    width: 24px;
-  }
-
-  &-title {
+  &-text {
     font-size: 11px;
     text-transform: uppercase;
   }
@@ -78,16 +75,11 @@
 @media (width <= 414px) {
   .header {
     flex-direction: column;
-    padding: 0 20px;
-  }
-
-  .logo {
-    margin-bottom: 17px;
+    row-gap: 17px;
   }
 
   .navigation-list {
     flex-direction: column;
-    margin-bottom: 17px;
   }
 
   .search {

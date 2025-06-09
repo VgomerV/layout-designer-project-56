@@ -7,7 +7,34 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <header class="header max-w d-flex wrap p-absolute center">
+  <div class="d-flex flex-col items-center relative">
+    <header class="header d-flex max-w mx-auto px-20 absolute">
+      <a class="logo d-flex items-center" href="#">
+        <img class="logo-image" src="./images/logo.svg" alt="Логотип Music Box">
+        <span class="logo-text">Music Box</span>
+      </a>
+      <nav class="navigation">
+        <ul class="navigation-list d-flex wrap">
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-active" href="#">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Каталог</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="artist.html">Исполнители</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="" class="search">
+        <input class="search-input" type="text" placeholder="Поиск...">
+      </form>
+    </header>
+  </div>
+  <!-- <header class="header max-w d-flex wrap p-absolute center">
     <div class="logo mr-90">
       <a class="logo-link d-flex" href="#">
         <img class="logo-img" src="./images/logo.svg" alt="Логотип Music Box">
@@ -33,9 +60,9 @@
     <form action="" class="search">
       <input class="search-input" type="text" placeholder="Поиск...">
     </form>
-  </header>
+  </header> -->
   <main>
-    <section id="page-description" class="hero center bg-main">
+    <!-- <section id="page-description" class="hero center bg-main">
       <div class="hero-content">
         <h1 class="hero-title">
           Онлайн музыка где угодно
@@ -52,10 +79,7 @@
           <button class="btn bg-green">Получить доступ</button>
         </form>
       </div>
-    </section>
-    <section id="page-pricing" class="container">
-      
-    </section>
+    </section> -->
   </main>
 </body>
 </html>

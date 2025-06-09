@@ -70,30 +70,48 @@ button {
 }
 .max-w {
   max-width: 1200px;
+  width: 100%;
 }
 
 .d-flex {
   display: flex;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
-.row-reverse {
-  flex-direction: row-reverse;
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .wrap {
   flex-wrap: wrap;
 }
 
-.p-absolute {
+.relative {
+  position: relative;
+}
+
+.absolute {
   position: absolute;
 }
 
-.center {
+.mx-auto {
   margin: 0 auto;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mb-17 {
@@ -150,20 +168,17 @@ button {
   top: 25px;
   left: 0;
   right: 0;
+  column-gap: 90px;
 }
 
 .logo {
-  height: max-content;
-}
-.logo-link {
-  align-items: center;
   column-gap: 16px;
   color: #fff;
 }
-.logo-img {
-  width: 24px;
+.logo-image {
+  height: 24px;
 }
-.logo-title {
+.logo-text {
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -209,105 +224,16 @@ button {
 @media (width <= 414px) {
   .header {
     flex-direction: column;
-    padding: 0 20px;
-  }
-  .logo {
-    margin-bottom: 17px;
+    row-gap: 17px;
   }
   .navigation-list {
     flex-direction: column;
-    margin-bottom: 17px;
   }
   .search {
     margin: 0;
   }
   .search-input {
     width: 100%;
-  }
-}
-.hero {
-  padding: 200px 20px;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-}
-.hero-content {
-  color: #fff;
-}
-.hero-title {
-  font-weight: 700;
-}
-
-.registration {
-  justify-content: center;
-  column-gap: 24px;
-  max-width: 570px;
-}
-.registration-input {
-  box-sizing: border-box;
-  min-width: 270px;
-  min-height: 50px;
-  margin-bottom: 1.5rem;
-  padding: 0 20px;
-  background-color: transparent;
-  border: 2px solid #CACACA;
-  border-radius: 3px;
-  color: #fff;
-}
-.registration-input::placeholder {
-  font-size: 14px;
-  color: #fff;
-}
-.registration-input:focus {
-  outline: none;
-}
-
-.artist {
-  text-align: start;
-}
-.artist-icon {
-  filter: invert(1);
-}
-.artist-buttons {
-  column-gap: 1.5rem;
-}
-.artist-btn {
-  align-items: center;
-  column-gap: 16px;
-  width: 200px;
-  padding: 20px 30px;
-  border: none;
-  font-size: 12.8px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.bg-main {
-  background-image: url("../images/banner.png");
-}
-
-.bg-morten {
-  background-image: url("../images/Morten Harket.png");
-}
-
-.bg-purple {
-  background-color: #5328A1;
-}
-
-.bg-red {
-  background-color: #95390C;
-}
-
-@media (width <= 414px) {
-  .hero {
-    padding: 248px 20px 200px 20px;
-  }
-  .hero-description {
-    margin-bottom: 48px;
-  }
-  .artist-buttons {
-    flex-direction: column;
-    row-gap: 24px;
   }
 }
 
