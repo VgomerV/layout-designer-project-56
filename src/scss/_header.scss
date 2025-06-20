@@ -4,8 +4,6 @@
   top: 25px;
   left: 0;
   right: 0;
-
-  column-gap: 90px;
 }
 
 .logo {
@@ -73,7 +71,7 @@
 }
 
 @media (width <= 414px) {
-  .header {
+  .container {
     flex-direction: column;
     row-gap: 17px;
   }

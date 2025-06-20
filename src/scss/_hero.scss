@@ -1,5 +1,59 @@
 @use "variables" as *;
 
+.hero {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+
+  &-content {
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  &-title {
+    font-weight: 700;
+  }
+
+  &-subtitle {
+    margin-bottom: 31px;
+  }
+}
+
+.registration {
+  justify-content: center;
+  column-gap: 24px;
+  max-width: 570px;
+
+  &-input {
+    box-sizing: border-box;
+    min-width: 270px;
+    min-height: 50px;
+
+    margin-bottom: 1.5rem;
+
+    padding: 0 20px;
+
+    background-color: transparent;
+
+    border: 2px solid $dark-gray;
+    border-radius: 3px;
+
+    color: #fff;
+
+    &::placeholder {
+      font-size: 14px;
+      color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
 // .hero {
 //   padding: 200px 20px;
 
@@ -90,17 +144,20 @@
 //   background-color: $red;
 // }
 
-// @media (width <= 414px) {
-//   .hero {
-//     padding: 248px 20px 200px 20px;
+@media (width <= 414px) {
+  .hero {
+    &-content {
+      padding-top: 278px;
+    }
 
-//     &-description {
-//       margin-bottom: 48px;
-//     }
-//   }
+    &-subtitle {
+      margin-bottom: 16px;
+    }
+  }
 
-//   .artist-buttons {
-//     flex-direction: column;
-//     row-gap: 24px;
-//   }
-// }
+  .registration {
+    &-input {
+      width: 100%;
+    }
+  }
+}

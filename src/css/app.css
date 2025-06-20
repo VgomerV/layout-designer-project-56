@@ -97,6 +97,10 @@ button {
   flex-wrap: wrap;
 }
 
+.gap-x-90 {
+  column-gap: 90px;
+}
+
 .relative {
   position: relative;
 }
@@ -168,7 +172,6 @@ button {
   top: 25px;
   left: 0;
   right: 0;
-  column-gap: 90px;
 }
 
 .logo {
@@ -222,7 +225,7 @@ button {
 }
 
 @media (width <= 414px) {
-  .header {
+  .container {
     flex-direction: column;
     row-gap: 17px;
   }
@@ -233,6 +236,59 @@ button {
     margin: 0;
   }
   .search-input {
+    width: 100%;
+  }
+}
+.hero {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.hero-content {
+  box-sizing: border-box;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-title {
+  font-weight: 700;
+}
+.hero-subtitle {
+  margin-bottom: 31px;
+}
+
+.registration {
+  justify-content: center;
+  column-gap: 24px;
+  max-width: 570px;
+}
+.registration-input {
+  box-sizing: border-box;
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  padding: 0 20px;
+  background-color: transparent;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+  color: #fff;
+}
+.registration-input::placeholder {
+  font-size: 14px;
+  color: #fff;
+}
+.registration-input:focus {
+  outline: none;
+}
+
+@media (width <= 414px) {
+  .hero-content {
+    padding-top: 278px;
+  }
+  .hero-subtitle {
+    margin-bottom: 16px;
+  }
+  .registration-input {
     width: 100%;
   }
 }
