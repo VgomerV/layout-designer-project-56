@@ -23,6 +23,9 @@
 
 .navigation {
   height: max-content;
+  &-item {
+    height: max-content;
+  }
 
   &-list {
     column-gap: 24px;
@@ -78,6 +81,10 @@
 
   .navigation-list {
     flex-direction: column;
+  }
+
+  .navigation-item {
+    height: 16px;
   }
 
   .search {

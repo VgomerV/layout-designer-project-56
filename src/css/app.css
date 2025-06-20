@@ -189,6 +189,9 @@ button {
 .navigation {
   height: max-content;
 }
+.navigation-item {
+  height: max-content;
+}
 .navigation-list {
   column-gap: 24px;
 }
@@ -231,6 +234,9 @@ button {
   }
   .navigation-list {
     flex-direction: column;
+  }
+  .navigation-item {
+    height: 16px;
   }
   .search {
     margin: 0;
