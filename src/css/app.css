@@ -166,7 +166,8 @@ button {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 16px;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
@@ -321,6 +322,7 @@ button {
 }
 
 .pricing {
+  box-sizing: border-box;
   padding-top: 100px;
 }
 .pricing-title {
@@ -328,6 +330,7 @@ button {
 }
 .pricing-cards {
   margin-top: 50px;
+  column-gap: 50px;
 }
 .pricing-description {
   text-align: center;
@@ -337,7 +340,7 @@ button {
 
 .card {
   box-sizing: border-box;
-  max-width: 366px;
+  max-width: 353px;
   padding-top: 24px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
@@ -355,6 +358,7 @@ button {
   color: #fff;
 }
 .card-currency {
+  text-transform: uppercase;
   font-size: 32px;
 }
 .card-btn {
@@ -363,6 +367,17 @@ button {
 }
 .card-description {
   font-size: 13px;
+}
+
+@media (width <= 414px) {
+  .pricing-cards {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
