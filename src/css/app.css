@@ -69,7 +69,6 @@ button {
   }
   h3 {
     font-size: 16px;
-    font-weight: 700;
   }
 }
 .max-w {
@@ -344,8 +343,9 @@ button {
 
 .card {
   box-sizing: border-box;
-  max-width: 353px;
+  flex: 1;
   padding-top: 24px;
+  padding-bottom: 64px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1rem;
@@ -370,6 +370,7 @@ button {
   background-color: transparent;
 }
 .card-description {
+  display: block;
   font-size: 13px;
   color: #fff;
 }
