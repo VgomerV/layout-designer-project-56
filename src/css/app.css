@@ -97,6 +97,10 @@ button {
   flex-wrap: wrap;
 }
 
+.gap-x-50 {
+  column-gap: 50px;
+}
+
 .gap-x-90 {
   column-gap: 90px;
 }
@@ -297,6 +301,68 @@ button {
   .registration-input {
     width: 100%;
   }
+}
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-base {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing {
+  padding-top: 100px;
+}
+.pricing-title {
+  text-align: center;
+}
+.pricing-cards {
+  margin-top: 50px;
+}
+.pricing-description {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 366px;
+  padding-top: 24px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.card-title {
+  margin-bottom: 200px;
+}
+.card-price {
+  display: inline-block;
+  height: 64px;
+  font-size: 64px;
+  line-height: 1rem;
+  color: #fff;
+}
+.card-currency {
+  font-size: 32px;
+}
+.card-btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.card-description {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=app.css.map */
