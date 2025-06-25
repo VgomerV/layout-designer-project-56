@@ -371,6 +371,7 @@ button {
 }
 .card-description {
   font-size: 13px;
+  color: #fff;
 }
 
 @media (width <= 414px) {
@@ -381,6 +382,9 @@ button {
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+  }
+  .card {
+    padding-top: 16px;
   }
 }
 
