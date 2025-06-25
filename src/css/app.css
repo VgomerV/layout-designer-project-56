@@ -67,6 +67,10 @@ button {
     font-size: 18px;
     line-height: 27px;
   }
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
 .max-w {
   max-width: 1200px;
