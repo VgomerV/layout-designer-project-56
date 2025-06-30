@@ -354,6 +354,9 @@ button {
 }
 .card-title {
   margin-bottom: 200px;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
   text-align: center;
 }
 .card-price {
@@ -374,6 +377,20 @@ button {
   margin-bottom: 64px;
   font-size: 12.8px;
   text-align: center;
+}
+
+@media (width <= 414px) {
+  .pricing-title {
+    font-size: 18px;
+  }
+  .cards {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .card {
+    max-width: 374px;
+    padding-top: 16px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
