@@ -15,3 +15,67 @@
   background-position: center;
   background-size: cover;
 }
+
+.pricing {
+  // box-sizing: border-box;
+  padding-top: 100px;
+
+  &-title {
+    margin-bottom: 50px;
+
+    text-align: center;
+  }
+
+  &-description {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.cards {
+  margin-bottom: 40px;
+  column-gap: 50px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  padding-top: 24px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  border-radius: 1rem;
+
+  color: #fff;
+
+  &-title {
+    margin-bottom: 200px;
+
+    text-align: center;
+  }
+
+  &-price {
+    margin-bottom: 40px;
+
+    line-height: 1em;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  &-currency {
+    font-size: 32px;
+  }
+
+  &-btn {
+    background-color: transparent;
+    margin-bottom: 64px;
+
+    border: 1px solid #fff;
+  }
+
+  &-description {
+    margin-bottom: 64px;
+    font-size: 12.8px;
+    text-align: center;
+  }
+}
