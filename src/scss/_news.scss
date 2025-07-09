@@ -54,6 +54,10 @@
 }
 
 @media (width <= 414px) {
+  .page-news {
+    box-sizing: border-box;
+  }
+
   .news {
     flex-direction: column;
     row-gap: 50px;
