@@ -384,6 +384,9 @@ button {
 }
 
 @media (width <= 414px) {
+  .pricing {
+    box-sizing: border-box;
+  }
   .pricing-title {
     font-size: 18px;
   }
