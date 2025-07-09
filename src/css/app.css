@@ -438,4 +438,15 @@ button {
   color: #CACACA;
 }
 
+@media (width <= 414px) {
+  .news {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .news-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
