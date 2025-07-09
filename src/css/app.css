@@ -400,6 +400,9 @@ button {
     margin: 0 auto;
     padding-top: 16px;
   }
+  .card-title {
+    font-size: 16px;
+  }
 }
 .page-news {
   padding-top: 100px;
