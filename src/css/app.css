@@ -304,6 +304,9 @@ button {
   .hero-subtitle {
     margin-bottom: 16px;
   }
+  .hero-content {
+    box-sizing: border-box;
+  }
   .registration-input {
     width: 100%;
   }
@@ -328,6 +331,7 @@ button {
 
 .pricing {
   padding-top: 100px;
+  box-sizing: border-box;
 }
 .pricing-title {
   margin-bottom: 50px;
@@ -397,6 +401,7 @@ button {
 }
 .page-news {
   padding-top: 100px;
+  box-sizing: border-box;
 }
 .page-news-title {
   margin-bottom: 48px;
