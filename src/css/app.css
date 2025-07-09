@@ -402,6 +402,7 @@ button {
   }
   .card-title {
     font-size: 16px;
+    line-height: 24px;
   }
 }
 .page-news {
